@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--文档语言说明-->
+<html lang="en">
+<head>
+    <!--编码格式-->
+    <meta charset="UTF-8">
+    <!--要求当前网页使用浏览器最高内核来渲染-->
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <!--视口的设置：视口的宽度和设备一致，默认的缩放比例和PC端一致，用户不能自行缩放-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- 优先加载和浏览器解释 -->
+    <title>基本模板</title>
+    <!-- Bootstrap 核心样式-->
+    <link href="../lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- html5shiv 和  respond 分别用来解决IE8版本浏览器不支持 H5标签和媒体查询的  不兼容问题-->
+    <!-- 警告：不能以file形式打开，本地打开。最好http://打开 -->
+    <!-- 在 IE 9 一下引入-->
+    <script src="../lib/html5shiv/html5shiv.min.js"></script>
+    <script src="../lib/respond/respond.min.js"></script>
+</head>
+<body>
+<div>
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+        <li><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+        <li><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+        <li><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">1</div>
+        <div role="tabpanel" class="tab-pane" id="profile">2</div>
+        <div role="tabpanel" class="tab-pane" id="messages">3</div>
+        <div role="tabpanel" class="tab-pane" id="settings">4</div>
+    </div>
+
+</div>
+
+
+
+<!-- bootstrap依赖jquery-->
+<script src="../lib/jquery/jquery.min.js"></script>
+<!-- bootstrap js 核心文件-->
+<script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
